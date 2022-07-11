@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
+
+body{
+ font-family:'Poppins', sans-serif;
+ margin: 0px;
+ padding: 0px;
+}
+
+.nav{
+    height: 4rem;
+    padding-left: 37px;
+    background: #FFCE70;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight:bold;
+    margin-bottom: 60px;
+    color: #3A3A3A;
+}
+
+
+.tituloheader{
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.tituloprincipal{
+    color: #4A6FF5;
+    font-size:30px;
+}
+
+.intro{
+    text-align: center;
+    line-height:16px;
+    margin: 45px;
+}
+
+.contenedor{
+  background-color:#EBEBEB;
+  padding: 10px;
+  border-radius: 30px;
+  line-height: 12px;
+}
+
+.tarjetas{
+    display: grid;
+    grid-template-columns:repeat(3,300px);
+    grid-template-rows: auto;
+    gap:1.5em;
+    margin: 0 ;
+    margin-left: 430px;
+    
+    
+}
+
+.nombreArticulo{
+    color: #3A3A3A;
+    font-weight: bold;
+}
+
+.precioViejo{
+    color:#8d8d8d ;
+    font-size: 15px;
+    text-decoration: line-through;
+}
+
+.precioOferta{
+    color: #F54A4A;
+    font-weight:bold;
+}
+
+.boton{
+    color: #fff;
+    background-color: #4A6FF5;
+    padding: 13px 18px;
+    border-radius: 10px;
+    float: right;
+    transition: all 0.3s ease;
+    margin-bottom: 5px;
+    margin-right:5px ;
+}
+
+.boton:hover{
+    background-color: #1d3794;
+}
+
+img{
+    width:280px;
+}
+
+.iconos{
+    width:25px;
+    height:25px;
+}
+
+.pie-pagina{
+    background:#FFCE70;
+    margin-top: 70px;
+    height:150px;
+    width:100%;
+    text-align: center;
+
+    display: flex;
+
+    align-items: center;
+    color: #3A3A3A;
+    
+}
+
+/* .textofooter{
+    margin-top: 
+} */
+.intro1{
+    text-align: center;
+    line-height:16px;
+    margin: 780px;
+}
