@@ -5,9 +5,6 @@
 * [1. Sobre el Proyecto](#1-sobre-el-proyecto)
 * [2. Problemática y Solución](#2-problemática-y-solución)
 * [3. Prototipo en baja y alta fidelidad](#3-prototipo-en-baja-y-alta-fidelidad)
-* [4. Consideraciones generales](#4-consideraciones-generales)
-* [5. Criterios de aceptación mínimos del proyecto](#5-criterios-de-aceptación-mínimos-del-proyecto)
-* [6. Pistas, tips y lecturas complementarias](#6-pistas-tips-y-lecturas-complementarias)
 
 ***
 
