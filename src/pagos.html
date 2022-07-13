@@ -13,18 +13,38 @@
         </nav>
     </header>
 
-    <h1 class="tituloprincipalPagos">Mis Artículos </h1>
+    <h1 class="tituloprincipalPagos"> Pagar</h1>
+<form class="formulario" id="form1">
+    <div class="elemento">
+        <label for="numTarjeta">Número Tarjeta de Crédito</label>
+        <input type="text" id="numTarjeta" placeholder="xxxx xxxx xxxx xxxx" maxlength="16" minlength="16" required>
+        <br>
+    </div>
 
-    <section>
-        <div class="contenedor">
-            <img src="Fotos/Rectangle 3.png" alt="tennis">
-            <p class="nombreArticulo">Tennis  Lifestyle </p>
-            <p class="precioViejo">$300.000</p>
-            <p class="precioOferta">$150.000</p>
-            <a  href="pagos.html" class="boton">Comprar</a>
-        </div>
-    </section>
+    <div class="elemento"> 
+        <label for="nombre">Titular de la Tarjeta de Crédito</label>
+        <input type="text" id="nombre" placeholder="Escribe el nombre del titular">
+        <br>
+    </div> 
 
+    <div class="elemento"> 
+        <label for="fechaC">Fecha de Caducidad</label>
+        <input type="text" id="fechaC"  placeholder="MM/AA">
+        <br>
+    </div>
+
+    <div class="elemento"> 
+        <label for="CVV">Dígito de Verificación</label>
+        <input type="text" id="CVV"  placeholder="CVV" maxlength="4" minlength="3" required>
+    </div>
+</form>
+
+<button type="submit" id="form1" class="botonpagar"> Pagar </button>
 </body>
 
+ <footer class="pie-pagina-2">
+    <div class="intro1"><p class=""> @Compra Online.com By Lina A</p></div>
+</footer> 
+
+<script src="index.js" type="module"></script>
 </html>

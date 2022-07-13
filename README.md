@@ -1,8 +1,8 @@
-# Tarjeta de crédito válida
+# Proyecto Tarjeta de crédito válida
 
 ## Índice
 
-* [1. Preámbulo](#1-preámbulo)
+* [1. Sobre el Proyecto](#1- Sobre-el-Proyecto)
 * [2. Resumen del proyecto](#2-resumen-del-proyecto)
 * [3. Objetivos de aprendizaje](#3-objetivos-de-aprendizaje)
 * [4. Consideraciones generales](#4-consideraciones-generales)
@@ -11,7 +11,7 @@
 
 ***
 
-## 1. Preámbulo
+## 1.  Sobre el Proyecto
 
 El [algoritmo de Luhn](https://es.wikipedia.org/wiki/Algoritmo_de_Luhn),
 también llamado algoritmo de módulo 10, es un método de suma de verificación,
