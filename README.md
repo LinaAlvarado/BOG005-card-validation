@@ -22,7 +22,7 @@ Debe ser algo fácil de entender y que genere confianza (desde el diseño hasta 
 ## 3. Prototipo en baja y alta fidelidad
 Empezamos el proyecto bocentando y diseñando para saber que queremos lograr, luego de validarlo con las compañeras, pasamos al prototipo de alta fidelidad.
 
-![texto alternativo](https://file%2B.vscode-resource.vscode-cdn.net/c%3A/Users/USUARIO/Downloads/photo_5060343490944281187_y.jpg?version%3D1657728041429)
-![texto alternativo](../Downloads/Desktop%20-%202.png)
-![texto alternativo](../Downloads/Desktop%20-%203.png)
+![texto alternativo](fotos-prototipos/photo_5060343490944281187_y.jpg)
+![texto alternativo](fotos-prototipos/Desktop%20-%202.png)
+![texto alternativo](fotos-prototipos/Desktop%20-%203.png)
 
