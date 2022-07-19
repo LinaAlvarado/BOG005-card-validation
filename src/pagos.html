@@ -14,13 +14,14 @@
     </header>
 
     <h1 class="tituloprincipalPagos"> Pagar</h1>
-<form class="formulario" id="form1">
+<form class="formulario">
+
     <div class="elemento">
         <label for="numTarjeta">Número Tarjeta de Crédito</label>
         <input type="text" id="numTarjeta" placeholder="xxxx xxxx xxxx xxxx" maxlength="16" minlength="16" required>
         <br>
     </div>
-
+    
     <div class="elemento"> 
         <label for="nombre">Titular de la Tarjeta de Crédito</label>
         <input type="text" id="nombre" placeholder="Escribe el nombre del titular">
@@ -35,16 +36,17 @@
 
     <div class="elemento"> 
         <label for="CVV">Dígito de Verificación</label>
-        <input type="text" id="CVV"  placeholder="CVV" maxlength="4" minlength="3" required>
+        <input type="text" id="CVV"  placeholder="CVV" maxlength="4" minlength="3" required="true">
     </div>
+    <!-- <button type="button" class="botonpagar" onclick="captura"> Pagar </button> -->
+    <button type="button" class="botonpagar" id="botonPagar"> Pagar </button>
 </form>
 
-<button type="submit" id="form1" class="botonpagar"> Pagar </button>
-</body>
-
- <footer class="pie-pagina-2">
+<footer class="pie-pagina-2">
     <div class="intro1"><p class=""> @Compra Online.com By Lina A</p></div>
 </footer> 
 
 <script src="index.js" type="module"></script>
+</body>
+<!-- estaba dentro del script type="module" -->
 </html>
