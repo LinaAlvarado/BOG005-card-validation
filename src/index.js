@@ -1,28 +1,66 @@
 import validator from './validator.js';
+
+const botonPagar = document.getElementById("botonPagar");
+
+botonPagar.addEventListener("click", () => { // instrucciones al dar click al boton 
+  const numTarjeta = document.getElementById("numTarjeta");
+  const isValid = validator.isValid(numTarjeta.value);
+  const maskify = validator.maskify(numTarjeta.value);
+  console.log(maskify);
+
+  // ALERTAS
+  if (isValid === true) {
+    alert("La tarjeta de crédito " + maskify + "  es válida"); 
+  } else {
+    alert("La tarjeta de crédito " + maskify + " no es válida");
+  }
+
+
+
+
+
+});
+
 console.log(validator);
 
-let numeroTarjeta="";
 
-function captura(){
-numeroTarjeta = document.getElementById("numTarjeta").value;
-let numArray= numeroTarjeta.split('').reverse();
-let suma = 0;
-let num = 0;
-for (let i= 0; i< numArray.length; i++){
-  if (i % 2 === 1){
-    num = Number( numArray[i] * 2);
-    if (num >= 10){
-      num = (num-10) + 1;
-    }
-  } else{
-    num = Number(numArray[i]);
-  }
-} suma += num;
-}
-suma % 10 === 0? true : false;
-return (suma)
-}
 
-let botonPagar = document.getElementById("botonPagar")
-botonPagar.addEventListener('click',captura);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// // import validator from './validator.js';
+// // console.log(validator);
+
+// let numeroTarjeta="";
+// let num = 0;
+// function captura(){
+// numeroTarjeta = document.getElementById("numTarjeta").value.split('').reverse();
+// for (let i= 0; i< numeroTarjeta.length; i++){
+//   if (i % 2 === 1)
+//     num = Number( numeroTarjeta[i] * 2);
+//   }
+// console.log(numeroTarjeta)
+// console.log(num)
+// }
+
+
+
+// let botonPagar = document.getElementById("botonPagar")
+// botonPagar.addEventListener('click',captura);
 
