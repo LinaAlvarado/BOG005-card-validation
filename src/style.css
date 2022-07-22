@@ -205,3 +205,10 @@ input::placeholder{
 .botonpagar:hover{
     background-color: #1d3cab;} 
 
+#estadoTarjeta{
+    color: #1d3cab;
+    margin-left:50px ;
+    font-size: 15px;
+    padding: 0px;
+    margin-top: 0px;
+}

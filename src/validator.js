@@ -18,7 +18,7 @@ const validator = {
     },
     // ENMASCARAR NÚMEROS DE LA TARJETA 
     maskify: (numTarjeta) => {
-      let numMaskify = numTarjeta;   // console.log(numMaskify); es el numero que ingresado en el sitio 
+      let numMaskify = numTarjeta;  
       let numFinal = "";
       for (let i = 0; i < numMaskify.length; i++) { // se cuentan las cifras ingresadas y se enmascaran excepto las 4 últimas 
         if (i < numMaskify.length - 4) {

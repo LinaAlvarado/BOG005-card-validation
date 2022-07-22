@@ -8,14 +8,19 @@ const numTarjeta = document.getElementById("numTarjeta");
 const isValid = validator.isValid(numTarjeta.value);
 const maskify = validator.maskify(numTarjeta.value);
 
-
+let mensaje;
 // ALERTAS
 if (isValid === true) {
-    alert("La tarjeta de crédito " + maskify + "  es válida"); 
+   mensaje = "La tarjeta de crédito " + maskify + "  es válida";
+   
+   
+    // alert("La tarjeta de crédito " + maskify + "  es válida"); 
 } else {
-    alert("La tarjeta de crédito " + maskify + " no es válida");
+    mensaje="La tarjeta de crédito " + maskify + " no es válida";
+   
+    // alert("La tarjeta de crédito " + maskify + " no es válida");
 }
-
+document.getElementById("estadoTarjeta").innerHTML=mensaje;
 });
 
 
